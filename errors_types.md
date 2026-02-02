@@ -245,6 +245,4 @@ Errors are **not failures**, but **learning opportunities** in software developm
 * Software Engineering Concepts
 * Flutter & Dart Documentation
 
----
 
-✨ *Prepared for educational and research purposes*
