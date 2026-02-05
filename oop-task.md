@@ -61,7 +61,7 @@ class BankAccount {
     }
   }
   void withDraw(double amount) {
-    if (amount > 0 && amount < _balance) {
+    if (amount > 0 && amount <= _balance) {
       this._balance -= amount;
     } else {
       print('the value is unvalid');
@@ -71,7 +71,7 @@ class BankAccount {
 ```
 
 >**screenshot of code:**<br>
-<img width="621" height="518" alt="image" src="https://github.com/user-attachments/assets/410f7caf-ad3c-4871-9abf-84c689f356a3" />
+<img width="526" height="506" alt="image" src="https://github.com/user-attachments/assets/320da041-3acd-4ba4-9086-19275a8d011c" />
 
 
 
